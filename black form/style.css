@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.one {
+    background-color: #6d7274;
+    height: 100vh;
+    border: 1px solid #6d7274;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.747);
+    width: 60%;
+    margin: 70px auto;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.9);
+}
+
+.div-left {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.div-left .text-one {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.div-left .text-two {
+    padding-block: 7px;
+}
+
+.div-left .text-three {
+    font-size: 10px;
+}
+
+.div-right {
+    background-color: rgba(131, 116, 116, 0.116);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.9);
+    border-radius: 0px 12px 12px 0px;
+    width: 70%;
+    color: white;
+    padding: 30px 80px 50px;
+}
+
+.div-right .text-four {
+    font-size: 13px;
+    padding: 10px 0px 25px;
+    opacity: .7;
+}
+
+.div-right .input-group input {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 8px;
+    background-color: rgba(131, 116, 116, 0.116);
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    outline: none;
+    color: white;
+}
+
+::placeholder {
+    color: rgba(185, 185, 185, 0.603);
+}
+
+input:focus {
+    color: white;
+}
+
+.input-check {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 8px;
+}
+
+.input-check label {
+    font-size: 13px;
+}
+
+.input-check label a {
+    color: rgb(134, 134, 255);
+    text-decoration: none;
+}
+
+.input-check label a:hover {
+    text-decoration: underline;
+}
+
+.input-button input {
+    width: 25%;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(134, 134, 255);
+}
+
+.text-five {
+    font-size: 13px;
+    padding-top: 7px;
+}
+
+.text-five a {
+    color: rgb(134, 134, 255);
+    text-decoration: none;
+}
+
+.text-five a:hover {
+    text-decoration: underline;
+}
